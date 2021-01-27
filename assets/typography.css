@@ -1,0 +1,15 @@
+@font-face {
+    font-family: open-sans;
+    src: url('OpenSans-Bold.ttf');
+}
+
+h1 {
+    font-family: open-sans;
+    line-height: 45px;
+    color: #353839;
+    text-align: left;
+}
+
+#label-2, #label-3, #label-4{
+    color: #a9a9a9;
+}

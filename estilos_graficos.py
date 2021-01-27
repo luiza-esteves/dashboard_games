@@ -63,6 +63,7 @@ def jogos_especificos(esp):#pega plataformas selecionadas
 
 def categorias_especificas(esp):#pega categorias selecionadas
     categoria = []
+    for x in range(len(lista)):
         if(lista[x][3] == esp):
             categoria.append(lista[x])
     return categoria
